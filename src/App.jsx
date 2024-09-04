@@ -38,7 +38,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Tracking App</h1>
+      <h1>Consulta guías - Envía</h1>
       <TrackingForm onTrack={handleTrack} />
       {currentStatus && (
         <div className="current-status">
